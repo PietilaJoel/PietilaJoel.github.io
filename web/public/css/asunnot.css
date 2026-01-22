@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #1c8fee;
+    padding: 2em;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.navbutton {
+    display:inline-block;
+    padding: 1em;
+    background-color: pink;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin: 0.5em;
+    width: 10em;
+}
+
+.navbutton:hover, .navbutton:active {
+    background-color: red;
+}
+
+.navbutton a {
+    text-decoration: none;
+}
+
+.rent-form-button {
+    border: solid 2px rgb(56, 56, 154);
+}
+
+.rent-form-button:hover {
+    cursor: pointer;
+}
+
+.inputarea {
+    display:flex;
+    width: 60% ;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+input, textarea {
+    width: 100%;
+    flex-grow: 1;
+}
+
+#sendbutton {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.centeredtext, .centered {
+    text-align: center;
+}
+
+.apartments {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.apartment {
+    display: flex;
+    position: relative;
+    border: solid 0.12em;
+    gap: 10px;
+    padding: 1em 2em;
+    width: 1000px;
+    align-items: flex-start;
+}
+
+.info {
+    width: 150px;
+    position: absolute;
+    right: 1em;
+    float: right;
+    margin-right: 50%;
+    margin-left: 40%;
+}
+
+.apartment:hover {
+    cursor: pointer;
+}
+
+.apartmento {
+    border: solid 0.12em;
+    padding: 1em 2em;
+}
+
+.apartmentos {
+    margin-top: 3%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+.header-button {
+    background: none; border: none;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.centered {
+    margin: 30px;
+}
+
+.apartment-img-s {
+    width: auto;
+    height: 150px;
+    float: left;
+}
+
+.apartment-img-l {
+    float: left;
+    width: auto;
+    height: 400px;
+    float: left;
+}
